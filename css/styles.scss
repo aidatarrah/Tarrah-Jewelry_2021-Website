@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Google Sans',Roboto,Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+
+body {
+  background-image: url("/img/new-tj-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  .item {
+    order: 2;
+  }
+  .logo {
+   width: 50px;
+   height: auto;
+  }
+}
+
+}

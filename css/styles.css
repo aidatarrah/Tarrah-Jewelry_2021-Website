@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Google Sans',Roboto,Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html body,
+body body {
+  background-image: url("/img/new-tj-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+html .container,
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+html .container .item,
+body .container .item {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+html .container .logo,
+body .container .logo {
+  width: 50px;
+  height: auto;
+}
+/*# sourceMappingURL=styles.css.map */
