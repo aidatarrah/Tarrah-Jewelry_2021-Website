@@ -2,41 +2,60 @@ html,
 body {
   height: 100%;
   font-family: 'Google Sans',Roboto,Arial,sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
+  /* Basic styling */
+  /*
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: gray;
+  text-align: center;
+  background-color: white;
+}
+label {
+  display: inline;
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+  margin: .4rem 0;
+}
+button {
+  background-color: white;
+  color: gray;
+  border: 1px gray;
+  cursor: pointer;
+}
+*/
 }
 
 html body,
 body body {
-  background-image: url("/img/new-tj-bg.jpg");
+  background-image: url("/img/bg-new-edit.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
-  background-color: #464646;
+  position: relative;
 }
 
-html .container,
-body .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+html *,
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-html .container .item,
-body .container .item {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-}
-
-html .container .logo,
-body .container .logo {
-  width: 50px;
-  height: auto;
+html h2,
+body h2 {
+  font-weight: 350;
+  margin: 580px 40px;
 }
 /*# sourceMappingURL=styles.css.map */

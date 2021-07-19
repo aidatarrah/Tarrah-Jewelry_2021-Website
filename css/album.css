@@ -1,0 +1,100 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Google Sans',Roboto,Arial,sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+html *,
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html h2,
+body h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #6c757d;
+  font-weight: 300;
+}
+
+html hr,
+body hr {
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+html .thumbnail:hover,
+body .thumbnail:hover {
+  position: relative;
+  bottom: -10px;
+  left: -10px;
+  width: 500px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+
+html div.gallery img,
+body div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+html div.desc,
+body div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #6c757d;
+  font-weight: 300;
+}
+
+html .responsive,
+body .responsive {
+  padding: 15px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  html .responsive,
+  body .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  html .responsive,
+  body .responsive {
+    width: 100%;
+  }
+}
+
+html .clearfix:after,
+body .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*# sourceMappingURL=album.css.map */
